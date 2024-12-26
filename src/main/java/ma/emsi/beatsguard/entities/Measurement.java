@@ -23,12 +23,12 @@ public class Measurement {
 
     private Double avgSpO2;
 
-    @ElementCollection
-    private List<Integer> bpmValues;
+    private Double avgTemp;
 
-    @ElementCollection
-    private List<Integer> spo2Values;
+    private Double avgHumidity;
 
+    @Basic(optional = false)
+    @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime time;
 
     @ManyToOne
