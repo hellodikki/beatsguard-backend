@@ -9,7 +9,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 
 @Service
 @RequiredArgsConstructor
@@ -25,7 +24,6 @@ public class AuthenticationService {
                 .username(request.getUsername())
                 .password(passwordEncoder.encode(request.getPassword()))
                 .role(request.getRole())
-                .devices(new ArrayList<>())  // Initialize empty devices list
                 .build();
         var savedUser = userRepository.save(user);
         var jwtToken = jwtService.generateToken(savedUser);
@@ -53,7 +51,6 @@ public class AuthenticationService {
                 .id(user.getId())
                 .username(user.getUsername())
                 .role(user.getRole())
-                .devicesCount(user.getDevices().size())  // Add device count if useful
                 .build();
     }
 }
