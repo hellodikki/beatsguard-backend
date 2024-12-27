@@ -46,7 +46,7 @@ BeatsGuard est une solution innovante basée sur une architecture de microservic
 - **Description** : Obtenez des réponses instantanées à des questions médicales courantes.
 - **Capture d'écran** :
   
-  ![Chatbot intégré](./assets/screenshots/chat_with_chatbot.jpg)
+  ![Chatbot intégré](./assets/screenshots/chat_with_chatbot.png)
 
 ---
 
