@@ -6,7 +6,7 @@ BeatsGuard est une solution innovante basée sur une architecture de microservic
 
 ---
 
-## Fonctionnalités
+## Architecture 
 
 ### Microservices
 - **Backend** : Spring Boot pour un développement robuste et sécurisé.
@@ -23,6 +23,48 @@ BeatsGuard est une solution innovante basée sur une architecture de microservic
     - MAX30102 : Mesure de la fréquence cardiaque et du taux d'oxygène.
     - DHT11 : Suivi de la température et de l'humidité.
 - **Communication** : Transmission sécurisée des données au backend.
+
+## Fonctionnalités Principales
+
+### 1. Surveillance en Temps Réel
+- **Description** : Surveillance constante de l'état des patients grâce aux capteurs IoT.
+- **Capture d'écran** :
+  
+  ![Surveillance en temps réel](assets/screenshots/realtime-monitoring.png)
+
+---
+
+### 2. Historique des Mesures
+- **Description** : Accédez aux données passées pour une prise de décision éclairée.
+- **Capture d'écran** :
+  
+  ![Historique des mesures](assets/screenshots/measurement-history.png)
+
+---
+
+### 3. Alertes en Temps Réel
+- **Description** : Notifications instantanées pour des événements critiques comme une chute ou une anomalie.
+- **Capture d'écran** :
+  
+  ![Alertes en temps réel](assets/screenshots/alerts.png)
+
+---
+
+### 4. Chatbot Intégré
+- **Description** : Obtenez des réponses instantanées à des questions médicales courantes.
+- **Capture d'écran** :
+  
+  ![Chatbot intégré](assets/screenshots/chatbot.png)
+
+---
+
+## Démonstration Vidéo
+Découvrez BeatsGuard en action dans cette vidéo :
+
+[![Regardez la vidéo](assets/screenshots/video-thumbnail.png)](https://www.youtube.com/watch?v=example)
+
+> Cliquez sur l'image pour voir la démonstration complète sur [YouTube](https://www.youtube.com/watch?v=example).
+
 
 ### Sécurité et Qualité
 - **JWT** : Protection des API.
