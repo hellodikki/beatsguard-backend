@@ -30,7 +30,7 @@ BeatsGuard est une solution innovante basée sur une architecture de microservic
 - **Description** : Surveillance constante de l'état des patients grâce aux capteurs IoT.
 - **Capture d'écran** :
   
-  ![Surveillance en temps réel](assets/screenshots/realtime-monitoring.png)
+  ![Surveillance en temps réel](./assets/screenshots/measurement_page.jpg)
 
 ---
 
@@ -38,32 +38,24 @@ BeatsGuard est une solution innovante basée sur une architecture de microservic
 - **Description** : Accédez aux données passées pour une prise de décision éclairée.
 - **Capture d'écran** :
   
-  ![Historique des mesures](assets/screenshots/measurement-history.png)
+  ![Historique des mesures](./assets/screenshots/measurement_history.jpg)
 
 ---
 
-### 3. Alertes en Temps Réel
-- **Description** : Notifications instantanées pour des événements critiques comme une chute ou une anomalie.
-- **Capture d'écran** :
-  
-  ![Alertes en temps réel](assets/screenshots/alerts.png)
-
----
-
-### 4. Chatbot Intégré
+### 3. Chatbot Intégré
 - **Description** : Obtenez des réponses instantanées à des questions médicales courantes.
 - **Capture d'écran** :
   
-  ![Chatbot intégré](assets/screenshots/chatbot.png)
+  ![Chatbot intégré](./assets/screenshots/chat_with_chatbot.jpg)
 
 ---
 
 ## Démonstration Vidéo
 Découvrez BeatsGuard en action dans cette vidéo :
 
-[![Regardez la vidéo](assets/screenshots/video-thumbnail.png)](https://www.youtube.com/watch?v=example)
+[![Regardez la vidéo](assets/screenshots/Screenshot%202024-12-27%20182748.png)](https://www.youtube.com/watch?v=example)
 
-> Cliquez sur l'image pour voir la démonstration complète sur [YouTube](https://www.youtube.com/watch?v=example).
+> Cliquez sur l'image pour voir la démonstration complète sur [Streamable](https://www.youtube.com/watch?v=example).
 
 
 ### Sécurité et Qualité
@@ -83,26 +75,6 @@ Découvrez BeatsGuard en action dans cette vidéo :
 - **Web (React)** :
   - Tableau de bord pour les soignants.
   - Historique des alertes et des comportements.
-
----
-
-## Comment Utiliser
-
-1. **Configuration Initiale** :
-   - Cloner les dépôts :
-     - Backend : [Backend Repository](https://github.com/hellodikki/beatsguard-backend)
-     - Frontend : [Frontend Repository](https://github.com/hellodikki/beatsguard-frontend)
-     - Mobile : [Mobile Repository](https://github.com/AhmedFatrah2001/beatsguard-mobile)
-   - Configurer les services backend et frontend.
-2. **Conteneurisation** :
-   - Construire et démarrer les services avec Docker :
-     ```bash
-     docker-compose up
-     ```
-3. **Surveillance** :
-   - Configurer Prometheus et Grafana pour le suivi des performances.
-4. **Tests** :
-   - Activer les pipelines Jenkins pour valider les commits avec SonarQube.
 
 ---
 
