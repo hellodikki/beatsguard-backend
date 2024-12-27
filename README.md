@@ -91,4 +91,11 @@ Découvrez BeatsGuard en action dans cette vidéo :
 
 ---
 
+## Contributeurs
+- FATRAH Ahmed ([GitHub](https://github.com/AhmedFatrah2001))
+- DAHBI Ayoub ([GitHub](https://github.com/hellodikki))
+- BOUFARRA Oussama ([GitHub](https://github.com/BOUFARRA-OUSSAMA))
+
+---
+
 Pour toute question, contactez-nous : [dahbiayoub2001@gmail.com](mailto:dahbiayoub2001@gmail.com).
