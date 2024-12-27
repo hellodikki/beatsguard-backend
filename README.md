@@ -53,9 +53,9 @@ BeatsGuard est une solution innovante basée sur une architecture de microservic
 ## Démonstration Vidéo
 Découvrez BeatsGuard en action dans cette vidéo :
 
-[![Regardez la vidéo](assets/screenshots/Screenshot%202024-12-27%20182748.png)](https://www.youtube.com/watch?v=example)
+[![Regardez la vidéo](assets/screenshots/Screenshot%202024-12-27%20182748.png)](https://streamable.com/ne5cpt)
 
-> Cliquez sur l'image pour voir la démonstration complète sur [Streamable](https://www.youtube.com/watch?v=example).
+> Cliquez sur l'image pour voir la démonstration complète sur [Streamable](https://streamable.com/ne5cpt).
 
 
 ### Sécurité et Qualité
